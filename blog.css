@@ -1,0 +1,70 @@
+body{
+    background: linear-gradient(lightblue,white);
+}
+.tagline{
+    font-style: italic;
+    color: blueviolet;
+}
+.shopname{
+    color:brown;
+}
+header{
+    size: 25px;
+}
+.image{
+    
+    float: right;
+    width:320px;
+    transition: 3s;
+    
+}
+
+.image:hover{
+    transform: scale(1.1);
+
+}
+
+
+table{
+    width: 75%;
+    border: 1px solid;
+    text-align: left;
+    padding: 10px;
+    
+    
+}
+th{
+    background-color: rgb(206, 206, 230);
+    text-align: left;
+    padding: 10px;;
+}
+td{
+    padding: 5px;
+}
+footer{
+    background-color: rgb(223, 212, 185);
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0%;
+    width: 100%;
+    font-weight: bold;
+
+}
+.price{
+    padding-top: 200px;
+}
+.menu{
+    border-radius: 10px;
+    width: 300px;
+    height: 500px;
+    padding: 50px;
+    transition: 3s;
+}
+.menu:hover{
+    transform: scale(1.1);
+}
